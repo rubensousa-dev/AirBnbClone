@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DevBnbStart.Infrastructure.Persistence;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DevBnbStart.API.Controllers
 {
@@ -6,6 +7,11 @@ namespace DevBnbStart.API.Controllers
     [Route("api/properties")]
     public class PropertiesController : ControllerBase
     {
+        readonly AppDbContext _context;
+        public PropertiesController(AppDbContext context)
+        {
+            _context = context;
+        }
         [HttpGet]
         public IActionResult GetAll()
         {

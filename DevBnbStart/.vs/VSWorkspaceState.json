@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\DevBnbStart.API",
+    "\\tests"
   ],
+  "SelectedNode": "\\DevBnbStart.sln",
   "PreviewInSolutionExplorer": false
 }

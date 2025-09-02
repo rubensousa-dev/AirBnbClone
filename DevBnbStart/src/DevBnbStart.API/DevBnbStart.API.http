@@ -1,6 +1,65 @@
 @DevBnbStart.API_HostAddress = http://localhost:5177
-
-GET {{DevBnbStart.API_HostAddress}}/weatherforecast/
+@propertyId = 506ED3E3-5580-4E91-A3B0-C2254F3D5ED7
+@clientsId = 2df07747-8de5-4746-823e-67fa2f34756a
+GET {{DevBnbStart.API_HostAddress}}/api/properties/506ED3E3-5580-4E91-A3B0-C2254F3D5ED7/accommodations
 Accept: application/json
 
 ###
+
+GET {{DevBnbStart.API_HostAddress}}/api/properties/{{propertyId}}/accommodations
+Accept: application/json
+
+###
+
+POST {{DevBnbStart.API_HostAddress}}/api/clients/
+Content-Type: application/json
+
+{
+  "email": "mariana.silva@example.com",
+  "passwordHash": "hashedPassword987",
+  "fullName": "Mariana Silva",
+  "phoneNumber": "+55 21 98345-2211",
+  "document": "321.654.987-00",
+  "birthDate": "1988-09-23T00:00:00",
+  "address": {
+    "street": "Rua das Palmeiras",
+    "number": "456",
+    "neighborhood": "Jardins",
+    "city": "Rio de Janeiro",
+    "state": "RJ",
+    "country": "Brasil",
+    "zipCode": "22041-001"
+  },
+  "observations": "Cliente ativo desde 2021, prefere contato telefônico no período da manhã."
+}
+###
+GET {{DevBnbStart.API_HostAddress}}/api/clients/{{clientsId}}/
+Content-Type: application/json
+
+###
+GET {{DevBnbStart.API_HostAddress}}/api/properties/{{propertyId}}/accommodations
+Accept: application/json
+
+###
+
+PUT {{DevBnbStart.API_HostAddress}}/api/clients/{{clientsId}}
+Content-Type: application/json
+
+{
+  "email": "mariana.silva@example.com",
+  "passwordHash": "hashedPassworsssssd987",
+  "fullName": "Mariana Silva ssss",
+  "phoneNumber": "+55 2133333 98345-2211",
+  "document": "321.654.987-00",
+  "birthDate": "1988-09-23T00:00:00",
+  "address": {
+    "street": "Rua das Palmeirassssss",
+    "number": "456",
+    "neighborhood": "Jardins",
+    "city": "Rio de Janeiro",
+    "state": "RJ",
+    "country": "Brasil",
+    "zipCode": "22041-001"
+  },
+  "observations": "Cliente ativo desde 2021, prefere contato telefônico no período da manhã.ssss"
+}

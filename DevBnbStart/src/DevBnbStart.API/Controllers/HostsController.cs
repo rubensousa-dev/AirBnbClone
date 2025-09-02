@@ -1,11 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace DevBnbStart.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/host")]
     [ApiController]
-    public class UsersController : ControllerBase
+    public class HostsController : ControllerBase
     {
         [HttpGet("{id}")]
         public IActionResult GetById(Guid id)
