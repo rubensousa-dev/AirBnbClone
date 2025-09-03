@@ -1,9 +1,15 @@
+using DevBnbStart.Infrastructure;
 using DevBnbStart.Infrastructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddSingleton<AppDbContext>();
+// Adiciona serviços de infraestrutura (incluindo Entity Framework)
+builder.Services.AddInfrastructure(builder.Configuration);
+
+// Adiciona controladores
 builder.Services.AddControllers();
+
+// Adiciona OpenAPI
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
@@ -15,9 +21,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

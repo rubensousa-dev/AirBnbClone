@@ -1,4 +1,6 @@
-﻿using DevBnbStart.Infrastructure.Persistence;
+﻿using DevBnbStart.Application.Models;
+using DevBnbStart.Core.Entities;
+using DevBnbStart.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevBnbStart.API.Controllers
@@ -24,9 +26,19 @@ namespace DevBnbStart.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post()
+        public IActionResult Post(AddPropertyInputModel model)
         {
-            return Ok();
+            var property = new Property(
+                model.Title,
+                model.Description,
+                model.Address,
+                model.IdHost,
+                model.CancellationPolicy
+            );
+            _context.Properties.Add(property);
+            _context.SaveChanges();
+
+            return Created();
         }
 
         [HttpPut("{id}")]

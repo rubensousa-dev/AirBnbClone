@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DevBnbStart.Core\DevBnbStart.Core.csproj" />
+    <ProjectReference Include="..\DevBnbStart.Infrastructure\DevBnbStart.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

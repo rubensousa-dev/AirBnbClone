@@ -59,8 +59,6 @@ namespace DevBnbStart.API.Controllers
             existingAccommodation.UpdateInfo(model.Name, model.Description,
                 model.MaxGuests, model.PricePerNight);
 
-            
-
             return NoContent();
         }
 

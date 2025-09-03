@@ -4,6 +4,7 @@ namespace DevBnbStart.Core.Entities
 {
     public class Client : BaseUser
     {
+        public Client() { }
         public Client(string observations, string email, 
             string passwordHash, string fullName, string phoneNumber, 
             string document, DateTime dateOfBirth, Address address) 

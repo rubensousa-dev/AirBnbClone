@@ -2,8 +2,10 @@
 
 namespace DevBnbStart.Core.Entities
 {
-    public abstract class BaseUser : BaseEntities
+    public abstract class BaseUser : BaseEntity
     {
+
+        protected BaseUser(){}
         protected BaseUser(string email, string passwordHash, 
             string fullName, string phoneNumber
             , string document, DateTime dateOfBirth, Address address) : base()

@@ -1,16 +1,20 @@
 ﻿namespace DevBnbStart.Core.Entities
 {
-    public class AccomodationAmenity : BaseEntities
+    public class AccomodationAmenity : BaseEntity
     {
-        public AccomodationAmenity(Guid idAccomodation, Guid idAmenity, int quantity) : base()
+        public AccomodationAmenity() { }
+
+        public AccomodationAmenity(Guid idAccommodation, Guid idAmenity, int quantity) : base()
         {
-            IdAccomodation = idAccomodation;
+            IdAccommodation = idAccommodation;
             IdAmenity = idAmenity;
             Quantity = quantity;
         }
 
-        public Guid IdAccomodation { get; set; }
+        public Guid IdAccommodation { get; set; }
+        public Accomodation Accomodation { get; set; }
         public Guid IdAmenity{ get; set; }
+        public Amenity Amenity { get; set; }
         public int Quantity { get; set; }
     }
 }

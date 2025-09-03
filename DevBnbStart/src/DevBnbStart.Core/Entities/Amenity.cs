@@ -2,8 +2,9 @@
 
 namespace DevBnbStart.Core.Entities
 {
-    public class Amenity : BaseEntities
+    public class Amenity : BaseEntity
     {
+        public Amenity(){}
         public Amenity(string title, string description, AmenityType amenityType) : base()
         {
             AmenityType = amenityType;
@@ -14,6 +15,6 @@ namespace DevBnbStart.Core.Entities
         public string Title { get; set; }
         public string Description { get; set; }
         public AmenityType AmenityType { get; set; }
- 
+        public ICollection<AccomodationAmenity> AccomodationAmenities { get; set; }
     }
 }

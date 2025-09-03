@@ -1,6 +1,7 @@
 @DevBnbStart.API_HostAddress = http://localhost:5177
 @propertyId = 506ED3E3-5580-4E91-A3B0-C2254F3D5ED7
-@clientsId = 2df07747-8de5-4746-823e-67fa2f34756a
+@clientsId = 121d1dc8-be7c-4bc8-aaf1-d8a91dd9727a
+@hostId = D5293CE9-AE0F-484D-B302-EF5B947DC8F6
 GET {{DevBnbStart.API_HostAddress}}/api/properties/506ED3E3-5580-4E91-A3B0-C2254F3D5ED7/accommodations
 Accept: application/json
 
@@ -30,7 +31,7 @@ Content-Type: application/json
     "country": "Brasil",
     "zipCode": "22041-001"
   },
-  "observations": "Cliente ativo desde 2021, prefere contato telefônico no período da manhã."
+  "observations": "Cliente ativo desde 2021, prefere contato telefï¿½nico no perï¿½odo da manhï¿½."
 }
 ###
 GET {{DevBnbStart.API_HostAddress}}/api/clients/{{clientsId}}/
@@ -41,7 +42,10 @@ GET {{DevBnbStart.API_HostAddress}}/api/properties/{{propertyId}}/accommodations
 Accept: application/json
 
 ###
+POST {{DevBnbStart.API_HostAddress}}/api/hosts
+Content-Type: application/json
 
+###
 PUT {{DevBnbStart.API_HostAddress}}/api/clients/{{clientsId}}
 Content-Type: application/json
 
@@ -61,5 +65,50 @@ Content-Type: application/json
     "country": "Brasil",
     "zipCode": "22041-001"
   },
-  "observations": "Cliente ativo desde 2021, prefere contato telefônico no período da manhã.ssss"
+  "observations": "Cliente ativo desde 2021, prefere contato telefï¿½nico no perï¿½odo da manhï¿½.ssss"
+}
+###
+
+POST {{DevBnbStart.API_HostAddress}}/api/hosts/
+Content-Type: application/json
+
+{
+  "email": "john.doe@example.com",
+  "passwordHash": "hashedPassword123",
+  "fullName": "John Doe",
+  "phoneNumber": "+55 11 99999-9999",
+  "document": "123.456.789-00",
+  "birthDate": "1990-05-15T00:00:00",
+  "address": {
+    "street": "Rua das Flores",
+    "number": "123",
+    "neighborhood": "Centro",
+    "city": "Sï¿½o Paulo",
+    "state": "SP",
+    "country": "Brasil",
+    "zipCode": "01001-000"
+  },
+  "bankData": "Conta ABC, Banco XYZ",
+  "bio": "Sou legal!",
+  "properties": []
+}
+###
+
+POST {{DevBnbStart.API_HostAddress}}/api/properties
+Content-Type: application/json
+
+{
+  "title": "Beachfront Villa",
+  "description": "A beautiful beachfront property with stunning ocean views.",
+  "address": {
+    "street": "Ocean Avenue",
+    "number": "123",
+    "neighborhood": "Seaside",
+    "city": "San Diego",
+    "state": "CA",
+    "country": "USA",
+    "zipCode": "92101"
+  },
+  "idHost": "{{hostId}}",
+  "cancellationPolicy": "Full refund for cancellations made at least 14 days before check-in."
 }

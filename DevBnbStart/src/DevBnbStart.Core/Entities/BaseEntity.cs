@@ -1,8 +1,8 @@
 ﻿namespace DevBnbStart.Core.Entities
 {
-    public abstract class BaseEntities
+    public abstract class BaseEntity
     {
-        protected BaseEntities()
+        protected BaseEntity()
         {
             Id = Guid.NewGuid();
             CreatedAt = DateTime.UtcNow;

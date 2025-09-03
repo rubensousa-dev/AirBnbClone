@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{112FE44B-2EF1-4BD5-B8EC-9065416B1EEA}|src\\DevBnbStart.Application\\DevBnbStart.Application.csproj|c:\\users\\ruben\\desktop\\mentoria\\devbnb\\devbnbstart\\src\\devbnbstart.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112FE44B-2EF1-4BD5-B8EC-9065416B1EEA}|src\\DevBnbStart.Application\\DevBnbStart.Application.csproj|solutionrelative:src\\devbnbstart.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB10DBFB-FF44-4434-AA9F-B9E200BB1A2E}|src\\DevBnbStart.API\\DevBnbStart.API.csproj|c:\\users\\ruben\\desktop\\mentoria\\devbnb\\devbnbstart\\src\\devbnbstart.api\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB10DBFB-FF44-4434-AA9F-B9E200BB1A2E}|src\\DevBnbStart.API\\DevBnbStart.API.csproj|solutionrelative:src\\devbnbstart.api\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB10DBFB-FF44-4434-AA9F-B9E200BB1A2E}|src\\DevBnbStart.API\\DevBnbStart.API.csproj|c:\\users\\ruben\\desktop\\mentoria\\devbnb\\devbnbstart\\src\\devbnbstart.api\\controllers\\accommodationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB10DBFB-FF44-4434-AA9F-B9E200BB1A2E}|src\\DevBnbStart.API\\DevBnbStart.API.csproj|solutionrelative:src\\devbnbstart.api\\controllers\\accommodationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB10DBFB-FF44-4434-AA9F-B9E200BB1A2E}|src\\DevBnbStart.API\\DevBnbStart.API.csproj|c:\\users\\ruben\\desktop\\mentoria\\devbnb\\devbnbstart\\src\\devbnbstart.api\\devbnbstart.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{DB10DBFB-FF44-4434-AA9F-B9E200BB1A2E}|src\\DevBnbStart.API\\DevBnbStart.API.csproj|solutionrelative:src\\devbnbstart.api\\devbnbstart.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F51AC0D5-E600-4062-ACEC-59B1AA0BC721}|src\\DevBnbStart.Core\\DevBnbStart.Core.csproj|c:\\users\\ruben\\desktop\\mentoria\\devbnb\\devbnbstart\\src\\devbnbstart.core\\entities\\accomodation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F51AC0D5-E600-4062-ACEC-59B1AA0BC721}|src\\DevBnbStart.Core\\DevBnbStart.Core.csproj|solutionrelative:src\\devbnbstart.core\\entities\\accomodation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{112FE44B-2EF1-4BD5-B8EC-9065416B1EEA}|src\\DevBnbStart.Application\\DevBnbStart.Application.csproj|c:\\users\\ruben\\desktop\\mentoria\\devbnb\\devbnbstart\\src\\devbnbstart.application\\models\\addpropertyinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112FE44B-2EF1-4BD5-B8EC-9065416B1EEA}|src\\DevBnbStart.Application\\DevBnbStart.Application.csproj|solutionrelative:src\\devbnbstart.application\\models\\addpropertyinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB10DBFB-FF44-4434-AA9F-B9E200BB1A2E}|src\\DevBnbStart.API\\DevBnbStart.API.csproj|c:\\users\\ruben\\desktop\\mentoria\\devbnb\\devbnbstart\\src\\devbnbstart.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DB10DBFB-FF44-4434-AA9F-B9E200BB1A2E}|src\\DevBnbStart.API\\DevBnbStart.API.csproj|solutionrelative:src\\devbnbstart.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F51AC0D5-E600-4062-ACEC-59B1AA0BC721}|src\\DevBnbStart.Core\\DevBnbStart.Core.csproj|c:\\users\\ruben\\desktop\\mentoria\\devbnb\\devbnbstart\\src\\devbnbstart.core\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F51AC0D5-E600-4062-ACEC-59B1AA0BC721}|src\\DevBnbStart.Core\\DevBnbStart.Core.csproj|solutionrelative:src\\devbnbstart.core\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6A406F8-023A-467B-8564-B73E28EFA4AA}|src\\DevBnbStart.Infrastructure\\DevBnbStart.Infrastructure.csproj|c:\\users\\ruben\\desktop\\mentoria\\devbnb\\devbnbstart\\src\\devbnbstart.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6A406F8-023A-467B-8564-B73E28EFA4AA}|src\\DevBnbStart.Infrastructure\\DevBnbStart.Infrastructure.csproj|solutionrelative:src\\devbnbstart.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB10DBFB-FF44-4434-AA9F-B9E200BB1A2E}|src\\DevBnbStart.API\\DevBnbStart.API.csproj|c:\\users\\ruben\\desktop\\mentoria\\devbnb\\devbnbstart\\src\\devbnbstart.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB10DBFB-FF44-4434-AA9F-B9E200BB1A2E}|src\\DevBnbStart.API\\DevBnbStart.API.csproj|solutionrelative:src\\devbnbstart.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,47 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 240,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.Application\\Class1.cs",
-              "RelativeDocumentMoniker": "src\\DevBnbStart.Application\\Class1.cs",
-              "ToolTip": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.Application\\Class1.cs",
-              "RelativeToolTip": "src\\DevBnbStart.Application\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T11:04:17.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Accomodation.cs",
-              "DocumentMoniker": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.Core\\Entities\\Accomodation.cs",
-              "RelativeDocumentMoniker": "src\\DevBnbStart.Core\\Entities\\Accomodation.cs",
-              "ToolTip": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.Core\\Entities\\Accomodation.cs",
-              "RelativeToolTip": "src\\DevBnbStart.Core\\Entities\\Accomodation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T11:01:25.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.Infrastructure\\Persistence\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "src\\DevBnbStart.Infrastructure\\Persistence\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.Infrastructure\\Persistence\\AppDbContext.cs",
-              "RelativeToolTip": "src\\DevBnbStart.Infrastructure\\Persistence\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T11:00:46.742Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
@@ -77,15 +50,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccommodationsController.cs",
-              "DocumentMoniker": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.API\\Controllers\\AccommodationsController.cs",
-              "RelativeDocumentMoniker": "src\\DevBnbStart.API\\Controllers\\AccommodationsController.cs",
-              "ToolTip": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.API\\Controllers\\AccommodationsController.cs",
-              "RelativeToolTip": "src\\DevBnbStart.API\\Controllers\\AccommodationsController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAiwDEAAABUAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\DevBnbStart.API\\Program.cs",
+              "ToolTip": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.API\\Program.cs",
+              "RelativeToolTip": "src\\DevBnbStart.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T09:39:46.123Z",
+              "WhenOpened": "2025-09-03T10:04:08.317Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddPropertyInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.Application\\Models\\AddPropertyInputModel.cs",
+              "RelativeDocumentMoniker": "src\\DevBnbStart.Application\\Models\\AddPropertyInputModel.cs",
+              "ToolTip": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.Application\\Models\\AddPropertyInputModel.cs",
+              "RelativeToolTip": "src\\DevBnbStart.Application\\Models\\AddPropertyInputModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T14:35:46.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PropertiesController.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.API\\Controllers\\PropertiesController.cs",
+              "RelativeDocumentMoniker": "src\\DevBnbStart.API\\Controllers\\PropertiesController.cs",
+              "ToolTip": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.API\\Controllers\\PropertiesController.cs",
+              "RelativeToolTip": "src\\DevBnbStart.API\\Controllers\\PropertiesController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwB4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T12:05:14.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\DevBnbStart.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.API\\appsettings.json",
+              "RelativeToolTip": "src\\DevBnbStart.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-03T11:57:00.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DevBnbStart.API.http",
+              "DocumentMoniker": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.API\\DevBnbStart.API.http",
+              "RelativeDocumentMoniker": "src\\DevBnbStart.API\\DevBnbStart.API.http",
+              "ToolTip": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.API\\DevBnbStart.API.http",
+              "RelativeToolTip": "src\\DevBnbStart.API\\DevBnbStart.API.http",
+              "ViewState": "AgIAAFUAAAAAAAAAAADwv3AAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-09-03T11:56:57.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Property.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.Core\\Entities\\Property.cs",
+              "RelativeDocumentMoniker": "src\\DevBnbStart.Core\\Entities\\Property.cs",
+              "ToolTip": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.Core\\Entities\\Property.cs",
+              "RelativeToolTip": "src\\DevBnbStart.Core\\Entities\\Property.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T11:18:13.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "src\\DevBnbStart.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ruben\\Desktop\\Mentoria\\DevBnb\\DevBnbStart\\src\\DevBnbStart.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "src\\DevBnbStart.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAwFQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T11:35:16.808Z",
               "EditorCaption": ""
             }
           ]
